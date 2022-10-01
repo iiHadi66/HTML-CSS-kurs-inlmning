@@ -1,11 +1,244 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Products</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Car rental">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Hadi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" type="text/css" href="css/products.css">
+    <title>Products</title>
 </head>
 <body>
-
+    <header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blog</a>
+            <div id="line"></div>
+        </nav>
+    </header>
+    <h1>Här hittar du alla bilmärke som vi har</h1>
+    <div class="container-sm mt-5"> 
+    <form>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Open this select menu</option>
+            <option value="1">Fiat</option>
+            <option value="2">Suzuki</option>
+            <option value="3">Renault</option>
+            <option value="4">BMW</option>
+            <option value="5">Hyundai</option>
+            <option value="6">Mercedes-Benz</option>
+            <option value="7">Skoda</option>
+            <option value="8">Peugeot</option>
+            <option value="9">Volkswagen</option>
+            <option value="10">Range Rover</option>
+            <option value="11">Jeep</option>
+          </select>
+    </form>
+</div>
+    <div class="tittle">
+        <h2>Bilar med 4 sittplatser</h2>
+    </div>
+    <div class="container">
+        <div class="content">
+            <img src="bilder/panda_lrg.jpg" alt="car">
+            <h3>Fiat   Panda</h3>
+            <p><b> Lorem ipsum dolor sit amet consectetur.</b></p>
+            <h6>391,00kr / 24 tim</h6>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star "></i></li>
+                <li><i class="fa fa-star "></i></li>
+                <li><i class="fa fa-star"></i></li>
+            </ul>
+            <a href="pp.html" class="button"> boka nu</a>
+        </div>
+        <div class="content">
+            <img src="bilder/celerio_lrg.jpg" alt="car">
+            <h3>Suzuki Celerio</h3>
+            <p><b> Lorem ipsum dolor sit amet consectetur.</b></p>
+            <h6>406,00kr / 24 tim </h6>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <button id="bd" class="button" type="button" onclick="alert('Bilen är inte tillgänglig!!!')" >boka nu </button>
+        </div>
+        <div class="content">
+            <img src="bilder/twingo_lrg.jpg" alt="car">
+            <h3>Renault twingo</h3>
+            <p><b> Lorem ipsum dolor sit amet consectetur.</b></p>
+            <h6>330,00kr / 24 tim</h6>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+            </ul>
+            <a href="pp.html" class="button"> boka nu</a>
+        </div>
+    </div>
+    <h2>Halvkombi</h2>
+    <div class="container">
+        <div class="content">
+            <img src="bilder/1_series_lrg.jpg" alt="car">
+            <h3>BMW 1 Series</h3>
+            <p><b> Lorem ipsum dolor sit amet consectetur.</b></p>
+            <h6>724,00kr / 24 tim</h6>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <a href="pp.html" class="button"> boka nu</a>
+        </div>
+        <div class="content">
+            <img src="bilder/i20_lrg.jpg" alt="car">
+            <h3>Hyundai ix20</h3>
+            <p><b> Lorem ipsum dolor sit amet consectetur.</b></p>
+            <h6>589,00kr / 24 tim</h6>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+            </ul>
+            <a href="pp.html" class="button"> boka nu</a>
+        </div>
+        <div class="content">
+            <img src="bilder/a_class_lrg.jpg" alt="car">
+            <h3>Mercedes Benz</h3>
+            <p><b> Lorem ipsum dolor sit amet consectetur.</b></p>
+            <h6>659,00kr / 24 tim</h6>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star"></i></li>
+            </ul>
+            <a href="pp.html" class="button"> boka nu</a>
+        </div>
+    </div>
+    <h2>Sedan</h2>
+    <div class="container">
+        <div class="content">
+            <img src="bilder/octavia_lrg.jpg" alt="car">
+            <h3>Skoda Octavia</h3>
+            <p><b> Lorem ipsum dolor sit amet consectetur.</b></p>
+            <h6>812,00kr / 24 tim</h6>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star "></i></li>
+                <li><i class="fa fa-star "></i></li>
+                <li><i class="fa fa-star"></i></li>
+            </ul>
+            <a href="pp.html" class="button"> boka nu</a>
+        </div>
+        <div class="content">
+            <img src="bilder/508_lrg.jpg" alt="car">
+            <h3>Peugeot 508</h3>
+            <p><b> Lorem ipsum dolor sit amet consectetur.</b></p>
+            <h6>550,00kr / 24 tim</h6>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+                <li><i class="fa fa-star"></i></li>
+            </ul>
+            <a href="pp.html" class="button"> boka nu</a>
+        </div>
+        <div class="content">
+            <img src="bilder/passat_lrg.jpg" alt="car">
+            <h3>Volkswagen</h3>
+            <p><b> Lorem ipsum dolor sit amet consectetur.</b></p>
+            <h6>605,00kr / 24 tim</h6>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star"></i></li>
+            </ul>
+            <a href="pp.html" class="button"> boka nu</a>
+        </div>
+    </div>
+    <h2>SUV</h2>
+    <div class="container">
+        <div class="content">
+            <img src="bilder/evoque_lrg.jpg" alt="car">
+            <h3>Range Rover</h3>
+            <p><b> Lorem ipsum dolor sit amet consectetur.</b></p>
+            <h6>989,00kr / 24 tim</h6>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <a href="pp.html" class="button"> boka nu</a>
+        </div>
+        <div class="content">
+            <img src="bilder/renegade_lrg.jpg" alt="car">
+            <h3>Jeep Renegad</h3>
+            <p><b> Lorem ipsum dolor sit amet consectetur.</b></p>
+            <h6>1012,00kr / 24 tim</h6>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star"></i></li>
+            </ul>
+            <a href="pp.html" class="button"> boka nu</a>
+        </div>
+        <div class="content">
+            <img src="bilder/x1_lrg.jpg" alt="car">
+            <h3>BMW X1</h3>
+            <p><b> Lorem ipsum dolor sit amet consectetur.</b></p>
+            <h6>1054,00kr / 24 tim</h6>
+            <ul>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+                <li><i class="fa fa-star checked"></i></li>
+            </ul>
+            <a href="pp.html" class="button"> boka nu</a>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <h3>EC Biluthyrning</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quod amet exercitationem.</p>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/" aria-hidden="true"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/" aria-hidden="true"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.google.se/?hl=sv" aria-hidden="true"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="https://www.instagram.com/" aria-hidden="true"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.snapchat.com/sv-SE" aria-hidden="true"><i class="fa fa-snapchat"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright&copy;2022 EC Biluthyrning. designed by <span>HADI</span></p>
+        </div>
+    </footer>
 </body>
 </html>
